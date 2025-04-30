@@ -1,12 +1,69 @@
-# React + Vite
+# ⚖️ Law Office Samac & Associates – Official Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the official website for **Law Office Samac & Associates**, a legal practice based in Serbia. The website is built using modern web technologies to reflect the firm’s professionalism, trust, and dedication to high-quality legal services.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** – Frontend framework
+- **Vite** – Lightning-fast development and build tool
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **GitHub Pages / Vercel** – Deployment (to be determined)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── assets/           # Images, icons, fonts
+├── components/       # React components
+├── pages/            # Page-level components (e.g. Home, About)
+├── App.jsx           # Main application wrapper
+├── main.jsx          # Entry point
+└── index.css         # Tailwind imports and global styles
+```
+
+---
+
+## 🛠️ Setup & Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/lawofficesamac.git
+
+# Navigate into the folder
+cd lawofficesamac
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
+---
+
+## 🌐 Deployment
+
+This project is optimized for deployment via **Vercel** or **GitHub Pages**. Deployment instructions will be added once live.
+
+---
+
+## 📸 Preview
+
+Coming soon...
+
+---
+
+## 📄 License
+
+This project is proprietary and not licensed for public use or redistribution.
+
+---
+
+## 👤 Author
+
+**Nemanja Samac**  
+[https://samac.dev](https://samac.dev)
