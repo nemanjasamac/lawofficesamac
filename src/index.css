@@ -1,1 +1,47 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@theme {
+  /* Law Office Samac Color Palette */
+  /* Primary Colors */
+  --color-bg-primary: #1F2937;    
+  --color-text-primary: #F9FAFB;  
+  --color-accent: #FACC15;        
+  --color-accent-hover: #FDE68A;  
+  --color-border: #D1D5DB;        
+  
+  /* Extended Colors */
+  --color-bg-secondary: #111827;  
+  --color-bg-light: #374151;      
+  --color-text-secondary: #9CA3AF; 
+  --color-accent-dark: #EAB308;   
+  --color-accent-light: #FEF3C7;  
+  
+  /* Typography */
+  --font-primary: 'Inter', system-ui, sans-serif;
+  
+  /* Animation */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-primary);
+  }
+  
+  body {
+    @apply bg-bg-primary text-text-primary;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  }
+}
